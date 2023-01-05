@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+  
+<body>
+    <h1 id="title">Survey From</h1>
+    <p id="description">Please provide your info below</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Enter name: <input type="text" id="name" name="name" placeholder="elon" required ></label>
+
+        <label id="email-label" for="email">Enter email: <input type="email" name="email" id="email" placeholder="musk@gamil.com" required></label>
+<br>
+<label for="number" id="number-label">Enter number: <input type="number" id="number" name="number" min="18" max="65" placeholder="33"></label>
+        
+
+      </fieldset>
+
+      <fieldset>
+        <label>Select gender:</label>
+        <label>Male: <input type="radio" id="male"   value="male" name="gender"></label>
+        <label>Female: <input type="radio" id="female" value="female" name="gender"></label>
+        <label>Non-binary: <input type="radio" id="non-binary" value="non-binary" name="gender"></label>
+<br>
+
+
+
+        <label>Select category you want to apply: </label>
+        <label>Dev <input type="checkbox" id="dev" name="dev" value="dev" ></label>
+        <label>IT <input type="checkbox" id="it" name="it" value="it" ></label>
+        <label>QA <input type="checkbox" id="qa" name="qa" value="qa" ></label>
+
+<label for="dropdown">Select cuttern position:
+  <select id="dropdown" name="dropdown">
+<option value="">select one</option>
+<option value="1">DEV</option>
+<option value="2">IT</option>
+<option value="3">QA</option>
+<option value="4">other</option>
+
+  </select>
+</label>
+
+      </fieldset>
+
+      <fieldset>
+        <label>Your Comment: <textarea id="comment" name="comment" placehoder="give feedback here" rows="3" cols="30" ></textarea></label>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+
+  </body>
+
+</html>
