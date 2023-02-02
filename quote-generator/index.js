@@ -30,9 +30,10 @@ async function getQoute(){
     //fetching data from api 
     const response = await fetch(apiURl, apiobj );
     const data = await response.json();
-
-
+console.log(data[0].quote);
+let text = data[0].quote;
     // puttting data into elements
+   // typeText(qoutEl, text );
     qoutEl.innerText = data[0].quote ;
     authEl.innerText =`- ${data[0].author}` ;
 
@@ -52,3 +53,17 @@ async function getQoute(){
    }
 }
 btnEl.addEventListener("click", getQoute);
+
+// type effect
+// function typeText (element, text) {
+
+//     let i = 0;
+//     let interval = setInterval(() => {
+//         if(i < text.length) {
+//             element.innerText += text.charAt(i);
+//             i++ ;
+//         } else {
+//             clearInterval(interval);
+//         }
+//     }, 20)
+// }
