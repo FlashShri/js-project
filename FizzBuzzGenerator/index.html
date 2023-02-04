@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzzFun</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pics/soda-25188.svg" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section class="instructions">
+            <div class="container1">
+                <h2>Welcome to fizzbuzz generator</h2>
+                <ul class="instruction-list">
+                    <li>You can generate serise of numbers from 1 to a limit.</li>
+                    <li>If a number is divisible by your input in fizz it will print "fizz"</li>
+                    <li>If a number is divisible by your input in buzz it will print "buzz"</li>
+                    <li>Remember this will print "fizzbuzz" if number is divisible by both</li>
+                </ul>
+                
+            </div>
+            <div class="banner">
+                <img src="pics/fizz buzz.png" alt="fizzbuzz logo">
+            </div>
+        </section>
+        <section class="dashboard">
+            <div class="input-container">
+                <div class="fb-input">
+                         <label for="fizzinput">FIZZ: <input class="fizz-input" type="number" id="fizzinput"/></label>
+                         <label for="buzzinput">BUZZ: <input class="buzz-input" type="number" id="buzzinput"></label>                   
+                </div>
+                <div class="num-input">
+                    <label for="limitinput">Generate number list from 1 to <input id="limitinput" type="number" class="limit-input"></label>
+                </div>
+                <button type="submit" class="submitbtn">Submit</button>
+            </div>
+            <div class="output">
+                <ul class="output-list" id="output">
+                    
+                </ul>
+
+
+            </div>
+        </section>
+    </main>
+    
+
+
+     <script src="script.js"></script>    
+
+
+</body>
+</html>
