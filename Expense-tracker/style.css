@@ -6,6 +6,7 @@ body{
     font-size: 1rem;
     color: #f0e0e0;
     background-color: rgb(7, 12, 25);
+
 }
 
 header{
@@ -36,6 +37,47 @@ li{
     margin: 0 10px;
 }
 
-section{
-    height:700px;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.landing{
+   margin: 30px 0px;
+   
+
+}
+.container-input{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.spendtable{
+
+    margin: 30px 0px;
+    padding: 10px;
+}
+.input{
+
+    margin: 30px 0px;
+    padding: 10px;
+}
+
+.inputblock {
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+
+label{
+    margin: 5px;
+    padding: 5px;
+}
+

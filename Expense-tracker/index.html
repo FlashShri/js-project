@@ -25,61 +25,72 @@
         
         
     </header>
-    <section>
-        <div class="container-input">
-            <img>
-            <p>Track your spendings with us and stay ahead of yuor budget</p>
-            <button>Start Tracking</button>
-        </div>
-    </section>
-    <section>
-        <div class="inputblock">
+    <main>
 
-            <label for="amount">Amount: <input type="number" id="amount"></label>
+        <section class="landing">
+            <div class="container-input">
+                <img>
+                <p>Track your spendings with us and stay ahead of yuor budget</p>
+                <button>Start Tracking</button>
+            </div>
+        </section>
 
-            <label for="exinput">Details of Expense <input type="text" class="exinput" id="exinput" placeholder="What are you spending on"></label>
 
-            <label for="date">Date: <input type="date" id="date"></label>
-
-            <label>category: <select>
-                <option value="a">a</option>
-                <option value="b">b</option>
-            </select></label>
-
-            <label for="payoption">Payment Method: 
-                <select name="" id="payoption">
-                    <option value="cash">cash</option>
-                    <option value="check">check</option>
-                    <option value="CC">credit card</option>
-                    <option value="Et">Electronic transfer</option>
+        <section class="input">
+            <div class="inputblock">
+    
+                <label for="amount">Amount: <input type="number" id="amount"></label>
+    
+                <label for="exinput">Details of Expense <input type="text" class="exinput" id="exinput" placeholder="What are you spending on"></label>
+    
+                <label for="date">Date: <input type="date" id="date"></label>
+    
+                <label>category: <select id="categoryOption">
+                    <option name="categoryOption" value="a">a</option>
+                    <option name="categoryOption" value="b">b</option>
                 </select></label>
 
-                <button id="submit">submit</button>
+                
+    
+                <label for="payoption">Payment Method: 
+                    <select name="" id="payoption">
+                        <option value="cash">cash</option>
+                        <option value="check">check</option>
+                        <option value="CC">credit card</option>
+                        <option value="Et">Electronic transfer</option>
+                    </select></label>
+    
+                    <button id="submit">submit</button>
+    
+            </div>
+            <div class="outuputtable"></div>
+        </section>
+    
+        <section class="spendtable">
+            <table>
+                <tbody>
+                    <tr class="row">
+                        <th>Date</th>
+                        <th>Expense</th>
+                        <th>Category</th>
+                        <th>Payment Method</th>
+                        <th>Amount</th>
+                    </tr>
+                    <tr class="row">
+                        <td class="datecol">05-02-2023</td>
+                        <td class="expcol">Breakfast</td>
+                        <td class="catcol">Food</td>
+                        <td class="pmcol">Cash</td>
+                        <td class="amtcol">₹ 30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-        </div>
-        <div class="outuputtable"></div>
-    </section>
-
-    <section class="spendtable">
-        <table>
-            <tbody>
-                <tr class="row">
-                    <th>Date</th>
-                    <th>Expense</th>
-                    <th>Category</th>
-                    <th>Payment Method</th>
-                    <th>Amount</th>
-                </tr>
-                <tr class="row">
-                    <td>05-02-2023</td>
-                    <td>Breakfast</td>
-                    <td>Food</td>
-                    <td>Cash</td>
-                    <td>₹ 30</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    </main>
+    
     <footer></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
