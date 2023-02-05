@@ -81,3 +81,33 @@ label{
     padding: 5px;
 }
 
+.spendtable {
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    display: table;
+    box-sizing: border-box;
+    border-collapse: separate;
+}
+tbody {
+    display: table-row-group;
+
+}
+tr {
+    display: table-row;
+}
+
+th {
+    background-color: rgb(201, 181, 219);
+    color: black;
+
+}
+td , th {
+    width:80px;
+}
+tr{
+    background-color: bisque;
+    color: rgb(16, 32, 33);
+}
