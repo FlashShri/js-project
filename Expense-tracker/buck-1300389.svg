@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 99 99" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient id="a" cx="-257.69" cy="387.62" r="75.714" gradientTransform="matrix(.60558 .11535 -.11439 .60055 254.94 17.893)" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-color="#ffcc53" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(1.3695 -181.37)">
+  <circle cx="49.312" cy="229.69" r="46.288" color="#000000" color-rendering="auto" fill="url(#a)" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3225" style="isolation:auto;mix-blend-mode:normal"/>
+  <circle cx="46.949" cy="232.05" r="42.859" color="#000000" color-rendering="auto" fill="#ffcc53" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="8.1801" style="isolation:auto;mix-blend-mode:normal"/>
+  <path d="m58.715 214.33c-0.96959 0.0665-1.5698 1.3911-1.8878 2.222-0.31793 0.83082-0.06465 2.4211-0.06465 2.4211s-3.9031 1.2385-4.7574 2.3909c-1.2449 0.89519-2.0424 2.2872-1.7442 3.849 0.21543 2.6606 2.0177 5.2066 4.539 6.1543 1.223 0.38676 1.8792 0.9885 1.8792 0.9885l0.1765 8.314c-1.3301-0.50065-2.3735-2.0408-3.7404-1.8136-1.1536 0.19173-2.4753 1.3001-2.4918 2.4694-0.01781 1.2656 1.5302 2.1051 2.6207 2.7477 1.0337 0.60908 2.7059-4e-3 3.4822 0.91105 0.4875 0.57448-0.06653 1.5493 0.20873 2.2506 0.39125 0.99692 0.88842 2.5021 1.9584 2.5469 1.1478 0.048 2.457-1.4325 2.3218-2.5469-0.13528-1.1144-0.01728-1.1983-0.02507-2.0599 1.6979-0.58429 3.743-0.79483 4.9005-2.329 1.0767-1.4308 1.9794-3.1432 1.8116-4.9902-0.13023-2.8783-2.288-5.105-4.4398-6.7707-0.85936-0.46037-2.4441-0.64831-2.2723-1.9582v-5.7155c1.34 0.5629 2.4558 2.0459 3.864 1.8282 1.1462-0.17719 2.6967-1.2181 2.5489-2.3684-0.32346-2.5162-6.7043-3.602-6.7043-3.602s0.66321-1.7727 0.3019-2.7173c-0.3613-0.94458-1.3768-2.2981-2.4855-2.222zm-1.8594 8.9265v4.6234c-1.6337-0.26611-3.3255-2.7787-1.7734-4.0123 0.5565-0.2994 1.2218-0.30023 1.7734-0.6111zm4.3344 11.321c1.7664 0.67411 2.9995 2.9006 2.3009 4.719-0.32904 1.21-2.837 2.171-2.3394 0.14228 0.15417-1.5448-0.02382-3.0996 0.0385-4.6553z" color="#000000" color-rendering="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="isolation:auto;mix-blend-mode:normal;white-space:normal"/>
+  <path d="m29.643 221.19l3.3329-1.6665 4.9993-4.9993v34.995" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.2424"/>
+ </g>
+</svg>
